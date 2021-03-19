@@ -1,3 +1,0 @@
-# MonitoringSystem
-
-Just testing.
