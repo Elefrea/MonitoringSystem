@@ -1,0 +1,1 @@
+CREATE TABLE memusage(date_time date NOT NULL, user text NOT NULL, mem_usage integer);REATE TABLE cpuusage(date_time date NOT NULL, user text NOT NULL, cpu_usage integer);
