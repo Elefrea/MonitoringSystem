@@ -2,8 +2,8 @@
 
 file=/home/green/MonitoringSys/MonitoringSystem/monitoring.db
 sqlite3 $file <<EOF
-CREATE TABLE mem(date_time date NOT NULL, user text NOT NULL, mem_usage integer);
-CREATE TABLE cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer);
+CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_usage integer);
+CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer);
 EOF
 
 for user in $(who | sed 's/ .*//' | sort -u)
