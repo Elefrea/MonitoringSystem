@@ -11,6 +11,10 @@ do
 	
 	sum=$(top -b -n 1 -u $user | awk 'NR>7 {sum += $10;} END {print sum;}')
        	sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO mem (date_time, user, mem_usage) values (datetime(), '$user', '$sum');"
+	if [ ${sum%%.*} -gt 20 ]; then
+		echo `/usr/sbin/sendmail "greenvi61@gmail.com" < /home/green/MonitoringSys/MonitoringSystem/alerte_mem.txt`
+	fi
+
 done
 sum=$(top -b -n 1 -u "root" | awk 'NR>7 {sum += $10;} END {print sum;}')
 sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO mem (date_time, user, mem_usage) values (datetime(), 'root', '$sum');"
