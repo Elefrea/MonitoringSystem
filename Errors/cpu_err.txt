@@ -28,3 +28,13 @@ Error: near line 1: database is locked
 Error: near line 2: database is locked
 Error: near line 1: database is locked
 Error: near line 2: database is locked
+Error: near line 1: database is locked
+Error: near line 2: database is locked
+Error: near line 1: database is locked
+Error: near line 2: database is locked
+Error: near line 1: database is locked
+Error: near line 2: database is locked
+Error: near line 1: database is locked
+Error: near line 2: database is locked
+Error: near line 1: database is locked
+Error: near line 2: database is locked
