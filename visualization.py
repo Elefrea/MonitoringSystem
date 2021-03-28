@@ -21,10 +21,10 @@ def create_chart(table, cur):
         chart_val.append(value[0])
 
     print(chart_val)
-
+    ofile = table + "_chart.svg"
     bar_chart = pygal.Bar()
-    bar_chart.add('Fibonacci', chart_val)
-    bar_chart.render_to_file('mem_chart.svg')
+    bar_chart.add(table, chart_val)
+    bar_chart.render_to_file(ofile)
 
 def create_connection(db_file):
     return sqlite3.connect(db_file)
