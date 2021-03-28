@@ -1,0 +1,1 @@
+/home/green/MonitoringSystem/gestion_hist.sh: line 12: /home/green/MonitoringSystem/monitoring.db: Permission denied
