@@ -2,6 +2,7 @@
 
 file=/home/green/MonitoringSystem/monitoring.db
 sqlite3 $file <<EOF
+PRAGMA busy_timeout=3000;
 CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_usage integer);
 CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer);
 EOF

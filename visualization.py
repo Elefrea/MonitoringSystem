@@ -16,8 +16,6 @@ def create_chart(table, cur):
     users = cur.execute("SELECT user FROM users")
 
     for user in set(users):
-        print(user[0])
-        green = "green"
         if(table == "cpu"):
             values = cur.execute("SELECT date_time, cpu_usage FROM cpu WHERE user=$1", (user[0],))
         if(table == "mem"):
@@ -27,8 +25,7 @@ def create_chart(table, cur):
             chart_date.append(value[0])
             chart_val.append(value[1])
 
-        print(chart_val)
-        ofile = table + "_chart.svg"
+        ofile = user[0] + "_" + table + "_chart.svg"
         bar_chart = pygal.Bar()
         bar_chart.x_labels = map(str, chart_date)
         bar_chart.add(user[0]+" "+table+" usage", chart_val)

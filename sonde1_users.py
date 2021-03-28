@@ -13,6 +13,8 @@ def main():
     for user in users_name:
         now = datetime.now()
         cur.execute("INSERT INTO users (date, user) VALUES ($1,$2)", (now, user))
+    
+    cur.execute("INSERT INTO users (date, user) VALUES ($1,$2)", (now, "root"))
     con.commit()
 
 def create_connection(db_file):
