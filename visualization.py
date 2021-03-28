@@ -25,11 +25,11 @@ def create_chart(table, cur):
             chart_date.append(value[0])
             chart_val.append(value[1])
 
-        ofile = user[0] + "_" + table + "_chart.svg"
-        bar_chart = pygal.Bar()
-        bar_chart.x_labels = map(str, chart_date)
-        bar_chart.add(user[0]+" "+table+" usage", chart_val)
-        bar_chart.render_to_file(ofile)
+        ofile = "./Visu/"+user[0] + "_" + table + "_chart.svg"
+        line_chart = pygal.Line()
+        line_chart.x_labels = map(str, chart_date)
+        line_chart.add(user[0]+" "+table+" usage", chart_val)
+        line_chart.render_to_file(ofile)
 
 def create_connection(db_file):
     return sqlite3.connect(db_file)
