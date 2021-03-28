@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file=/home/green/MonitoringSys/MonitoringSystem/monitoring.db
+file=/home/green/MonitoringSystem/monitoring.db
 sqlite3 $file <<EOF
 CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_usage integer);
 CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer);
@@ -12,7 +12,7 @@ do
 	sum=$(top -b -n 1 -u $user | awk 'NR>7 {sum += $10;} END {print sum;}')
        	sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO mem (date_time, user, mem_usage) values (datetime(), '$user', '$sum');"
 	if [ ${sum%%.*} -gt 20 ]; then
-		echo `/usr/sbin/sendmail "greenvi61@gmail.com" < /home/green/MonitoringSys/MonitoringSystem/alerte_mem.txt`
+		echo `/usr/sbin/sendmail "greenvi61@gmail.com" < /home/green/MonitoringSystem/alerte_mem.txt`
 	fi
 
 done

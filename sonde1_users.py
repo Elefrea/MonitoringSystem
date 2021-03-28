@@ -3,7 +3,7 @@ import sqlite3;
 from datetime import datetime;
 
 def main():
-    db_file = "/home/green/MonitoringSys/MonitoringSystem/monitoring.db"
+    db_file = "/home/green/MonitoringSystem/monitoring.db"
     con = create_connection(db_file)
     cur = con.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS users(date date NOT NULL, user text NOT NULL);")
