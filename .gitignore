@@ -3,4 +3,5 @@ Backup/*
 ./Visu/*
 *.sw*
 *.db
-
+*.svg
+.gitignore
