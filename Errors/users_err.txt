@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/green/MonitoringSystem/sonde1_users.py", line 23, in <module>
+    main()
+  File "/home/green/MonitoringSystem/sonde1_users.py", line 17, in main
+    cur.execute("INSERT INTO users (date, user) VALUES ($1,$2)", (now, "root"))
+UnboundLocalError: local variable 'now' referenced before assignment
+Traceback (most recent call last):
+  File "/home/green/MonitoringSystem/sonde1_users.py", line 23, in <module>
+    main()
+  File "/home/green/MonitoringSystem/sonde1_users.py", line 17, in main
+    cur.execute("INSERT INTO users (date, user) VALUES ($1,$2)", (now, "root"))
+UnboundLocalError: local variable 'now' referenced before assignment
