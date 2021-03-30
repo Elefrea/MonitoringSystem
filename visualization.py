@@ -1,9 +1,9 @@
-import pygal
+import pygal;
 import sqlite3;
 from datetime import datetime;
 
 def main():
-    db_file = "/home/green/MonitoringSystem/monitoring.db"
+    db_file = "/home/elefrea/Uni/MonitoringSystem/monitoring.db"
     con = create_connection(db_file)
     cur = con.cursor()
     
@@ -17,18 +17,18 @@ def create_chart(table, cur):
 
     for user in set(users):
         if(table == "cpu"):
-            values = cur.execute("SELECT date_time, cpu_usage FROM cpu WHERE user=$1", (user[0],))
+            values = cur.execute("SELECT date_time, cpu_usage FROM cpu WHERE user=?", (user[0],))
         if(table == "mem"):
-            values = cur.execute("SELECT date_time, mem_usage FROM mem WHERE user=$1", (user[0],))
+            values = cur.execute("SELECT date_time, mem_usage FROM mem WHERE user=?", (user[0],))
 
         for value in values:
             chart_date.append(value[0])
-            chart_val.append(value[1])
+            chart_val.append(1)
 
-        ofile = "/home/green/MonitoringSystem/Visu/"+user[0] + "_" + table + "_chart.svg"
+        ofile = "/home/elefrea/Uni/MonitoringSystem/Visu/" + user[0] + "_" + table + "_chart.svg"
         line_chart = pygal.Line()
         line_chart.x_labels = map(str, chart_date)
-        line_chart.add(user[0]+" "+table+" usage", chart_val)
+        line_chart.add(user[0] +" "+ table +" usage", chart_val) 
         line_chart.render_to_file(ofile)
 
 def create_connection(db_file):
