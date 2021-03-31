@@ -35,8 +35,9 @@ def create_chart(table, cur):
         line_chart.render_to_file(ofile)
 
 def output_data(cur):
-    print("user      date      cpu      mem")
-    output = cur.execute("SELECT cpu.user, cpu.date_time, cpu_usage, mem_usage FROM cpu INNER JOIN mem ON mem.user=cpu.user")
+    title = '%12s %24s %12s %12s' %("user", "date", "cpu", "mem")
+    print(title)
+    output = cur.execute("SELECT cpu.user, cpu.date_time, cpu_usage, mem_usage FROM cpu NATURAL JOIN mem")
     for out in set(output):
         data = '%12s %24s %12s %12s' % (str(out[0]), str(out[1]), str(out[2]), str(out[3]))
         print(data)
