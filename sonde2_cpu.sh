@@ -7,11 +7,12 @@ CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_
 CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer NOT NULL);
 EOF
 
+typeset -i max_cpu=$(cat /home/elefrea/Uni/MonitoringSystem/cpu_crise.txt)
 for user in $(who | sed 's/ .*//' | sort -u)
 do 
 	sum=$(top -b -n 1 -u $user | awk 'NR>7 {sum += $9;} END {print sum}')
        	sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO cpu (date_time, user, cpu_usage) values (datetime(), '$user', '$sum');"
-	if [ ${sum%%.*} -gt 20 ]; then
+	if [ ${sum%%.*} -gt $max_cpu ]; then
 		echo `/usr/sbin/sendmail "khaoula.otmani@alumni.univ-avignon.fr" < /home/elefrea/Uni/MonitoringSystem/alerte_cpu.txt`
 	fi
 
