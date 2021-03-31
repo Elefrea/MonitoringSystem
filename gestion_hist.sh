@@ -3,9 +3,9 @@
 file=/home/elefrea/Uni/MonitoringSystem/monitoring.db
 sqlite3 $file << EOF
 PRAGMA busy_timeout=3000;
-DELETE FROM cpu WHERE date_time < DATETIME('NOW', '-5 minutes');
-DELETE FROM mem WHERE date_time < DATETIME('NOW', '-5 minutes');
-DELETE FROM users WHERE date < DATETIME('NOW', '-5 minutes');
+DELETE FROM cpu WHERE date_time < DATETIME('NOW', '-2 minutes');
+DELETE FROM mem WHERE date_time < DATETIME('NOW', '-2 minutes');
+DELETE FROM users WHERE date < DATETIME('NOW', '-2 minutes');
 EOF
 
 echo `cp /home/elefrea/Uni/MonitoringSystem/monitoring.db /home/elefrea/Uni/MonitoringSystem/Backup/$(date +\%Y-\%m-\%d_\%H:\%M:\%S).db`
