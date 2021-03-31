@@ -11,7 +11,7 @@ for user in $(who | sed 's/ .*//' | sort -u)
 do 
 	sum=$(top -b -n 1 -u $user | awk 'NR>7 {sum += $9;} END {print sum}')
        	sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO cpu (date_time, user, cpu_usage) values (datetime(), '$user', '$sum');"
-	if [ "$sum" -gt 20 ]; then
+	if [ ${sum%%.*} -gt 20 ]; then
 		echo `/usr/sbin/sendmail "khaoula.otmani@alumni.univ-avignon.fr" < /home/elefrea/Uni/MonitoringSystem/alerte_cpu.txt`
 	fi
 
