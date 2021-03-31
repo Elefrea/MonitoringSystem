@@ -1,0 +1,9 @@
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 5,9: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 21,1: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 70,6: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 6,2: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 23,6: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 23,5: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 26,7: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 6,2: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh: line 15: [: 5,9: integer expression expected
