@@ -1,31 +1,151 @@
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 15: [: 95,6: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 15: [: 95,6: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 15: [: 96,6: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 97,8: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 97,9: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 97,9: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 95,7: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 96,9: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,2: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 134,2: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 124,1: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 119,6: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 119,6: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 121,7: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 119,3: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 116,4: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 113,3: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,4: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 100,8: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 102,7: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 102,2: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 102,1: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 105,3: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 105,5: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,8: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,8: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 109,4: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 103,7: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 103,8: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,1: integer expression expected
-/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 106,1: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 111,8: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: : integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: {111,9}: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 109,9: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 112,4: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 113,4: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 14: [: 112,2: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 15: [: 112,2: integer expression expected
+sed: can't read 114,4: No such file or directory
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 13: 114,4=: command not found
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 15: [: 114,4: integer expression expected
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 20: unexpected EOF while looking for matching `''
+/home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh: line 22: syntax error: unexpected end of file

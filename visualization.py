@@ -23,6 +23,8 @@ def create_chart(table, cur):
 
         for value in values:
             chart_date.append(value[0])
+            print(value[1])
+            print(type(value[1]))
             chart_val.append(1)
 
         ofile = "/home/elefrea/Uni/MonitoringSystem/Visu/" + user[0] + "_" + table + "_chart.svg"

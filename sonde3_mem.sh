@@ -3,15 +3,15 @@
 file=/home/elefrea/Uni/MonitoringSystem/monitoring.db
 sqlite3 $file <<EOF
 PRAGMA busy_timeout=3000;
-CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_usage real);
-CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage real);
+CREATE TABLE IF NOT EXISTS mem(date_time date NOT NULL, user text NOT NULL, mem_usage integer NOT NULL);
+CREATE TABLE IF NOT EXISTS cpu(date_time date NOT NULL, user text NOT NULL, cpu_usage integer NOT NULL);
 EOF
 
 for user in $(who | sed 's/ .*//' | sort -u)
 do 	
-	sum=$(top -b -n 1 -u $user | awk 'NR>7 {sum += $10;} END {print sum;}')
+	sum=$(top -b -n 1 -u $user | awk 'NR>7 {su)
        	sqlite3 $file "PRAGMA busy_timeout=3000; INSERT INTO mem (date_time, user, mem_usage) values (datetime(), '$user', '$sum');"
-	if [ ${sum%%.*} -gt 95 ]; then
+	if [ $sum -gt 95 ]; then
 		echo `/usr/sbin/sendmail "khaoula.otmani@alumni.univ-avignon.fr" < /home/elefrea/Uni/MonitoringSystem/alerte_mem.txt`
 	fi
 

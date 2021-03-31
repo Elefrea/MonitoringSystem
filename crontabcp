@@ -25,7 +25,8 @@ MAILTO=""
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-* * * * * /home/green/MonitoringSystem/sonde2_cpu.sh 2>> /home/green/MonitoringSystem/Errors/cpu_err.txt
-* * * * * /home/green/MonitoringSystem/sonde3_mem.sh 2>> /home/green/MonitoringSystem/Errors/mem_err.txt
-* * * * * python3 /home/green/MonitoringSystem/sonde1_users.py 2>> /home/green/MonitoringSystem/Errors/users_err.txt
-*/5 * * * * /home/green/MonitoringSystem/gestion_hist.sh 2>> /home/green/MonitoringSystem/Errors/hist_err.txt
+* * * * * /home/elefrea/Uni/MonitoringSystem/sonde2_cpu.sh 2>> /home/elefrea/Uni/MonitoringSystem/Errors/cpu_err.txt
+* * * * * /home/elefrea/Uni/MonitoringSystem/sonde3_mem.sh 2>> /home/elefrea/Uni/MonitoringSystem/Errors/mem_err.txt
+* * * * * python3 /home/elefrea/Uni/MonitoringSystem/sonde1_users.py 2>> /home/elefrea/Uni/MonitoringSystem/Errors/users_err.txt
+*/5 * * * * /home/elefrea/Uni/MonitoringSystem/gestion_hist.sh 2>> /home/elefrea/Uni/MonitoringSystem/Errors/hist_err.txt
+
