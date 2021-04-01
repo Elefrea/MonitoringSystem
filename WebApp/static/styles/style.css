@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+* {
+	font-family: 'Poppins',Arial, sans-serif;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+.chart {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+
+img {
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.connected {
+	margin-bottom: 20px;
+}
