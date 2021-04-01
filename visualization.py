@@ -28,7 +28,7 @@ def create_chart(table, cur):
             chart_val.append(value[1])
 
 
-        ofile = "/home/elefrea/Uni/MonitoringSystem/Visu/" + user[0] + "_" + table + "_chart.svg"
+        ofile = "/home/elefrea/Uni/MonitoringSystem/WebApp/static/" + user[0] + "_" + table + "_chart.svg"
         line_chart = pygal.Line()
         line_chart.x_labels = map(str, chart_date)
         line_chart.add(user[0] +" "+ table +" usage", chart_val) 
