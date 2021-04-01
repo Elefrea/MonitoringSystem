@@ -7,7 +7,7 @@ Another script (visualisation.py) does the transcription of the database data to
 
 For each user there are 2 charts rendered (one for the memory and one for the cpu usage), such as this one:
 
-![elefrea_mem_chart](https://user-images.githubusercontent.com/62560237/113290432-ec0d4b80-92f1-11eb-822e-b6d175d27dc1.png)
+![root_mem_chart](https://user-images.githubusercontent.com/62560237/113291021-b4eb6a00-92f2-11eb-812b-d83d7553a896.png)
 
-You can find all the data of my server on : <a src="https://monitoring-ubuntu.herokuapp.com/"> <strong> Monitoring Screen </strong> </a>
+You can find all the data of my server on : [a link]https://monitoring-ubuntu.herokuapp.com/
 The data is updated every 5 minutes, you must refresh the webpage in order to see it.
