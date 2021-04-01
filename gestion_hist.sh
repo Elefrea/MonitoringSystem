@@ -11,4 +11,4 @@ EOF
 echo `cp /home/elefrea/Uni/MonitoringSystem/monitoring.db /home/elefrea/Uni/MonitoringSystem/Backup/$(date +\%Y-\%m-\%d_\%H:\%M:\%S).db`
 echo `/usr/bin/find /home/elefrea/Uni/MonitoringSystem/Backup/ -name "*.db" -mmin +10 -exec rm -f {} \;`
 echo `python3 /home/elefrea/Uni/MonitoringSystem/visualization.py`
-#echo `/home/elefrea/Uni/MonitoringSystem/WebApp/autodeploy.sh 2> /home/elefrea/Uni/MonitoringSystem/push_err.txt`
+echo `/home/elefrea/Uni/MonitoringSystem/WebApp/autodeploy.sh 2> /home/elefrea/Uni/MonitoringSystem/Errors/push_err.txt`
