@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    imageList = os.listdir('static')
-    imageList = ['/' + image for image in imageList]
+    imageList = os.listdir('static/images')
+    imageList = ['/images/' + image for image in imageList]
     return render_template('index.html', imageList=imageList)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug = True)

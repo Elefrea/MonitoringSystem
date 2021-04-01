@@ -1,0 +1,9 @@
+h1 {
+	font-size: 5em;
+}
+
+#chart {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}

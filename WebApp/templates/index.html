@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title></title>
- <meta charset="utf-8" />
-</head><body> 
-<h1>Monitoring screen</h1>
-{% for imageList in imageList %}
-<img src="{{url_for('static', filename=imageList)}}" align="middle" />
-{% endfor %}
-</div>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/style/style.css')}}">
+ 	<title>MonitoringScreen</title>
+	<meta charset="utf-8" />
+</head>
+
+<body> 
+	<h1 align="middle">Monitoring screen</h1>
+	<div id="chart">	
+		{% for image in imageList %}
+		<img src="{{url_for('static', filename=image)}}" align="middle" />
+		{% endfor %}
+	</div>
+	</div>
 </body>
 </html>
