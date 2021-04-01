@@ -9,5 +9,5 @@ For each user there are 2 charts rendered (one for the memory and one for the cp
 
 ![root_mem_chart](https://user-images.githubusercontent.com/62560237/113291021-b4eb6a00-92f2-11eb-812b-d83d7553a896.png)
 
-You can find all the data of my server on the [Monitoring Screen](https://monitoring-ubuntu.herokuapp.com/)
-The data is updated every 5 minutes, you must refresh the webpage in order to see it.
+You can find all the data of my server on the [Monitoring Screen](https://monitoring-ubuntu.herokuapp.com/).
+Data are updated every 5 minutes, refresh the webpage to have the latest infos.
