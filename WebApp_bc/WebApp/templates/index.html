@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/styles/stylef.css')}}">
+ 	<title>MonitoringScreen</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="60">
+</head>
+
+<body> 
+	<h1 align="middle">Monitoring screen</h1>
+
+	<h2 align="middle">Users usage: </h2>
+	<br>
+	<div class="chart">	
+		<table>
+			<tr>
+				{% for t in title %}
+					<th>{{t}}</th>
+				{%endfor%}
+			</tr>
+			{% for row in data|sort(data[2][3]|round|int) %}
+				<tr>
+					{% for cell in row %}
+						<td>{{cell}}</td>
+					{%endfor%}
+				</tr>
+			{%endfor%}
+		</table>
+
+	</div>
+	<div class="chart">
+		<embed type="image/svg+xml" src={{chart_mem|safe}} />
+		<embed type="image/svg+xml" src={{chart_cpu|safe}} />
+	</div>
+</body>
+</html>

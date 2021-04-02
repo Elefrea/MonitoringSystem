@@ -12,12 +12,11 @@ def main():
     create_chart("mem", cur)
 
 def create_chart(table, cur):
-    chart_val = []
-    chart_date = []
-    cpu_data = []
-    mem_data = []
     users = cur.execute("SELECT user FROM users")
     for user in set(users):
+        chart_val = []
+        chart_date = []
+        
         if(table == "cpu"):
             values = cur.execute("SELECT date_time, cpu_usage FROM cpu WHERE user=?", (user[0],))
         if(table == "mem"):
@@ -28,11 +27,12 @@ def create_chart(table, cur):
             chart_val.append(value[1])
 
 
-        ofile = "/home/elefrea/Uni/MonitoringSystem/WebApp/static/images/" + user[0] + "_" + table + "_chart.svg"
+        ofile = "/home/elefrea/Uni/MonitoringSystem/Visu/" + user[0] + "_" + table + "_chart.svg"
         line_chart = pygal.Line()
         line_chart.x_labels = map(str, chart_date)
         line_chart.add(user[0] +" "+ table +" usage", chart_val) 
         line_chart.render_to_file(ofile)
+        
 
 def output_data(cur):
     title = '%12s %24s %12s %12s' %("user", "date", "cpu", "mem")
